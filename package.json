@@ -1,5 +1,5 @@
 {
-  "name": "ogg-packet",
+  "name": "@audc/ogg-packet",
   "description": "Manually construct `ogg_packet` struct instances",
   "keywords": [
     "ogg",
@@ -8,15 +8,15 @@
     "ogg_packet",
     "struct"
   ],
-  "version": "1.0.1",
+  "version": "2.0.0",
   "license": "MIT",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/node-ogg-packet.git"
+    "url": "https://github.com/orgads/node-ogg-packet"
   },
   "main": "./index.js",
   "dependencies": {
-    "ref-struct": "*"
+    "ref-struct": "npm:@audc/ref-struct@^2.0.0"
   }
 }
